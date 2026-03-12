@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "camera": true,
+    "analytics": true
+  },
+  "last_profile": "default",
+  "always_ask_profile": true,
+  "recorder": {
+    "enabled": true,
+    "buffer_secs": 10,
+    "fps": 8,
+    "screenshot_interval": 30,
+    "resolution": [
+      1280,
+      720
+    ]
+  },
+  "custom_mappings": {}
+}

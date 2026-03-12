@@ -1,0 +1,29 @@
+{
+  "name": "Gesture Enablement Layer",
+  "description": "Universal template — map gestures to any keys or actions",
+  "icon": "G",
+  "gestures": {
+    "right": {
+      "OPEN":      {"action": "aim",    "type": "mouse_move",       "label": "Aim / Look"},
+      "PINCH":     {"action": "action2","type": "mouse_right_hold", "label": "Right Click"},
+      "FIST":      null,
+      "PEACE":     null,
+      "POINT_UP":  null,
+      "THUMBS_UP": null,
+      "OK":        null,
+      "THREE":     null,
+      "NONE":      null
+    },
+    "left": {
+      "FIST":      {"action": "move",    "type": "wasd",            "label": "Move"},
+      "POINT_UP":  {"action": "action1", "type": "mouse_left_hold", "label": "Left Click"},
+      "PEACE":     {"action": "key_f",   "type": "key_tap", "key": "f",  "label": "F"},
+      "THREE":     {"action": "key_g",   "type": "key_tap", "key": "g",  "label": "G"},
+      "THUMBS_UP": {"action": "key_h",   "type": "key_tap", "key": "h",  "label": "H"},
+      "OPEN":      {"action": "key_r",   "type": "key_tap", "key": "r",  "label": "R"},
+      "PINCH":     null,
+      "OK":        null,
+      "NONE":      null
+    }
+  }
+}
